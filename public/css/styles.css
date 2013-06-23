@@ -62,7 +62,7 @@ table{
 /* Typography */
 
 body {
-  font-family: "novecento_widenormal";
+  font-family: "novecento_widenormal", sans-serif;
   font-weight: lighter;
   font-size: 100%;
 }
@@ -140,15 +140,29 @@ nav {
   background-color: #FFFFFF;
 }
 
-  nav > * {
+  nav > *, nav .source > * {
     vertical-align: middle;
     display: inline;
   }
 
   nav .fb-like {
     margin-left: 1em;
+    margin-right: 1em;
     height: 20px;
   }
+
+  nav h2 a {
+    color: red;
+  }
+
+  nav .source {
+    font-family: Helvetica, sans-serif;
+    float: right;
+  }
+
+    nav .source p {
+      margin-right: .5em;
+    }
 
 h1 {
   color: white;
