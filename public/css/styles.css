@@ -59,15 +59,69 @@ table{
   border-spacing:0;
 }
 
+/* Typography */
+
+body {
+  font-family: "novecento_widenormal";
+  font-weight: lighter;
+  font-size: 100%;
+}
+
+h1 {
+  margin-bottom: 0.75em;
+  font-size: 3.2rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+h2 {
+  margin-bottom: 0.75em;
+  font-size: 2.4rem;
+  line-height: 1.2;
+}
+
+h3 {
+  margin-bottom: 1em;
+  font-size: 2.1rem;
+  line-height: 1.3;
+}
+
+h4 {
+  margin-bottom: 1.5em;
+  font-size: 1.8rem;
+  line-height: 1.25;
+}
+
+h5 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5em;
+}
+
+h6 {
+  margin-bottom: 1.5em;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+p,
+ol,
+ul,
+dl,
+address,
+.paragraph {
+  margin-bottom: 1.5em;
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 1.5em;
+}
+
 /* Main Styles */
 * { -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-}
-
-body {
-  font-family: "Helvetica";
-  font-weight: lighter;
 }
 
 html {
@@ -95,6 +149,15 @@ nav {
     margin-left: 1em;
     height: 20px;
   }
+
+h1 {
+  color: white;
+  position: absolute;
+  bottom: 1em;
+  margin: 0 0 10px 10px;
+  line-height: 1.15;
+  font-size: 4rem;
+}
 
 @font-face {
     font-family: 'novecento_widenormal';
